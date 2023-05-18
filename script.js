@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch .csv file's data
-    fetch('table_input.csv')
+    fetch('Table_Input.csv')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch CSV file');
